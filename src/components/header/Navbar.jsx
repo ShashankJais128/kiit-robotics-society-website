@@ -18,7 +18,7 @@ function Navbar() {
   }
   return (
     <>
-      <nav className="bg-gray-100 w-full sticky top-0 z-50">
+      <nav className="bg-[#111111] w-full sticky top-0 z-50">
         <div className="mx-auto px-6">
           <div className="flex justify-between">
             <div className="flex space-x-4">
@@ -35,26 +35,26 @@ function Navbar() {
                 </Link>
               </div>
               {/* primary nav */}
-              <div className="hidden lg:flex items-center space-x-1 text-lg">
-                <Link to="/" className="py-5 px-3 text-gray-700 hover:text-black hover:underline hover:underline-offset-2">
+              <div className="hidden lg:flex items-center space-x-2 text-lg">
+                <Link to="/" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Home
                 </Link>
-                <Link to="/aboutus" className="py-5 px-3 text-gray-700 hover:text-black hover:underline hover:underline-offset-2">
+                <Link to="/aboutus" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   About Us
                 </Link>
-                <Link to="/featured" className="py-5 px-3 text-gray-700 hover:text-black hover:underline hover:underline-offset-2">
+                <Link to="/featured" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Featured
                 </Link>
-                <Link to="/events" className="py-5 px-3 text-gray-700 hover:text-black hover:underline hover:underline-offset-2">
+                <Link to="/events" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Events
                 </Link>
-                <Link to="/achievements" className="py-5 px-3 text-gray-700 hover:text-black hover:underline hover:underline-offset-2">
+                <Link to="/achievements" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Achievements
                 </Link>
-                <Link to="/collaborations" className="py-5 px-3 text-gray-700 hover:text-black hover:underline hover:underline-offset-2">
+                <Link to="/collaborations" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Collaborations
                 </Link>
-                <Link to="/contactus" className="py-5 px-3 text-gray-700 hover:text-black hover:underline hover:underline-offset-2">
+                <Link to="/contactus" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Contact Us
                 </Link>
                 {/* <Link to="/admin" className="py-5 px-3 text-gray-700 hover:text-black hover:underline hover:underline-offset-2">
@@ -63,9 +63,9 @@ function Navbar() {
               </div>
             </div>
             {/* secondary nav */}
-            <div className="hidden lg:flex text-gray-700 items-center space-x-1 text-lg">
-              <Link to="/signup" className="py-2 px-3 hover:text-black border-2 border-black hover:bg-gray-200 rounded transition duration-300">
-                Signup
+            <div className="hidden lg:flex my-4 rounded-full bg-yellow-500 items-center text-lg">
+              <Link to="/signup" className="py-1 px-3 hover:text-black hover:bg-gray-200 rounded transition duration-300">
+                Register/Log in
               </Link>
             </div>
             {/* mobile button goes here */}
