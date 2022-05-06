@@ -1,9 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import Footer from "../footer/Footer";
 function HomeMain() {
   return (
-    <div>Homemain</div>
-  )
+    <div>
+      Homemain
+    </div>
+  );
 }
 
-export default HomeMain
+export default HomeMain;
