@@ -1,62 +1,29 @@
 import React from "react";
 import FG from "./FeaturedGrid";
-import d1 from "../../public/d1.png";
+
 
 function FeaturedMain() {
   return (
-    <div className="w-full bg-black">
+    <div className="bg-cover bg-[url('C:\Users\KIIT\OneDrive\Desktop\KRS_WEB\kiit-robotics-society-website\src\public\dronebackground.jpg')] py-5">
       <h1 className="text-center font-poppins text-4xl font-bold py-6 text-white">
         Featured Works
-        <button className="bg-amber-400 hover:bg-amber-500 text-black px-4 rounded text-xl font-semibold">
+        <button className="bg-amber-400 hover:bg-amber-500 text-black px-4 rounded text-xl font-semibold ml-5">
           All
         </button>
       </h1>
+      <div>
+      <div className="flex m-5">
+        <FG ht="360px"/>
+        <FG ht="310px"/>
+        <FG />
+      </div>
 
-      <section class="overflow-hidden text-gray-700 ">
-  <div class="container py-2  lg:pt-12 lg:px-32">
-    <div class="flex flex-wrap -m-1 md:-m-2">
-      <div class="flex flex-wrap w-1/3 mr-4">
-        <div class="w-full p-1 md:p-2 border-2 border-white rounded-lg ">
-          <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={d1} />
-        </div>
+      <div className="flex  m-5">
+        <FG />
+        <FG />
+        <FG />
       </div>
-      <div class="flex flex-wrap w-1/3">
-        <div class="w-full p-1 md:p-2 border-2 border-white rounded-lg">
-        <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={d1} />
-        </div>
       </div>
-      <div class="flex flex-wrap w-1/3 border-2 border-white rounded-lg">
-        <div class="w-full p-1 md:p-2">
-        <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={d1} />
-        </div>
-      </div>
-      <div class="flex flex-wrap w-1/3">
-        <div class="w-full p-1 md:p-2 border-2 border-white rounded-lg">
-        <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={d1} />
-        </div>
-      </div>
-      <div class="flex flex-wrap w-1/3">
-        <div class="w-full p-1 md:p-2 border-2 border-white rounded-lg">
-        <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={d1} />
-        </div>
-      </div>
-      <div class="flex flex-wrap w-1/3">
-        <div class="w-full p-1 md:p-2 border-2 border-white rounded-lg">
-        <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={d1} />
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-      <br></br>
-      <br></br>
     </div>
   );
 }

@@ -1,8 +1,11 @@
 import React from 'react'
+import EventCards from './EventCards'
 
 function EventMain() {
   return (
-    <div>EventMain</div>
+    <div>
+      <EventCards />
+    </div>
   )
 }
 

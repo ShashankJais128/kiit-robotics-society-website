@@ -4,7 +4,7 @@ import News from "./News";
 
 function Column() {
   return (
-    <div className="flex justify-center md:justify-start">
+    <div className="flex justify-center md:justify-between">
      <Useful />
      <Social />
      <News />

@@ -7,7 +7,7 @@ function Footer() {
     <div style={{ background: "#1C1C1C" }}>
       <div className="p-4 sm:p-6 flex justify-center md:justify-start">
         <Text />
-        <div>
+        <div >
           <Column />
         </div>
       </div>
