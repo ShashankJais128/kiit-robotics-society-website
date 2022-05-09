@@ -3,9 +3,11 @@ import Footer from '../components/footer/Footer'
 import Navbar from '../components/header/Navbar'
 import HomeAbout from '../components/home/HomeAbout'
 import HomeMain from '../components/home/HomeMain'
-import FeaturedMain from '../components/featured/FeaturedMain'
-import EventMain from '../components/events/EventMain'
 import Testimonials from '../components/testimonials/Testimonials'
+import HomeEvent from '../components/home/HomeEvent'
+import HomeFeatured from '../components/home/HomeFeatured'
+import HomeAchievements from '../components/home/HomeAchievements'
+import HomeCollaborations from '../components/home/HomeCollaborations'
 
 function Home() {
   return (
@@ -13,8 +15,10 @@ function Home() {
         <Navbar />
         <HomeMain />
         <HomeAbout />
-        <FeaturedMain />
-        <EventMain />
+        <HomeFeatured />
+        <HomeEvent />
+        <HomeAchievements />
+        <HomeCollaborations />
         <Testimonials />
         <Footer />
         

@@ -2,7 +2,7 @@ import React from "react";
 import FG from "./FeaturedGrid";
 
 
-function FeaturedMain() {
+function HomeFeatured() {
   return (
     <div className="bg-cover bg-[url('C:\Users\KIIT\OneDrive\Desktop\KRS_WEB\kiit-robotics-society-website\src\public\dronebackground.jpg')] py-5">
       <h1 className="text-center font-poppins text-4xl font-bold py-6 text-white">
@@ -28,4 +28,4 @@ function FeaturedMain() {
   );
 }
 
-export default FeaturedMain;
+export default HomeFeatured;
