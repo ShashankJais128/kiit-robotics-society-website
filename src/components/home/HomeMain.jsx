@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect, useRef } from 'react'
 
 const homePageData = [
@@ -16,6 +17,10 @@ const homePageData = [
 ];
 
 
+=======
+import React from "react";
+import Footer from "../footer/Footer";
+>>>>>>> 57c6e0d36565d9b4e5511654d84a70def233ed43
 function HomeMain() {
   let count = 0;
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -51,6 +56,7 @@ function HomeMain() {
 
 
   return (
+<<<<<<< HEAD
     <div ref={slideRef} className="w-full select-none relative">
       <div className="h-[100vh] bg-cover bg-left" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${homePageData[currentIndex].img})`}}>
         <div className="pl-20 pt-40">
@@ -66,6 +72,12 @@ function HomeMain() {
       </div>
     </div>
   )
+=======
+    <div>
+      Homemain
+    </div>
+  );
+>>>>>>> 57c6e0d36565d9b4e5511654d84a70def233ed43
 }
 
-export default HomeMain
+export default HomeMain;
