@@ -5,7 +5,7 @@ function HomeAchievements() {
   return (
     <div className='bg-black flex flex-col pb-10'>
         
-        <h1 className='text-center text-6xl font-bold pt-6 px-10 text-yellow-500'>Achievents</h1>
+        <h1 className='text-center text-6xl font-bold pt-6 px-10 text-yellow-500'>Achievements</h1>
         <div className='flex justify-between px-32 pt-10 pb-10'>
             <div className='w-72 h-96 relative rounded-xl border-yellow-500 overflow-hidden border-4'>
                 <img className='z-0 h-full w-full' src={PP} alt="" />

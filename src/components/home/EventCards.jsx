@@ -13,7 +13,7 @@ function EventCards() {
           </button>
         </h1>
       </div>
-      <div className="flex my-10 mx-14">
+      <div className="flex my-10 mx-14 justify-center">
       <Card />
       <Card />
       <Card />
