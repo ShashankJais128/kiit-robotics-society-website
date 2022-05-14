@@ -24,37 +24,37 @@ function Navbar() {
             <div className="flex space-x-4">
               {/* logo */}
               <div className="flex">
-                <Link to="/" className="flex items-center py-5 px-2">
+                <Link to="/" className="flex items-center py-5 px-1">
                   <img className="w-10 rounded-full ml-4 cursor-pointer" src={krslogo} alt="KRS" />
                 </Link>
-                <Link to="/" className="flex items-center py-5 px-2">
+                <Link to="/" className="flex items-center py-5 px-1">
                   <img className="w-10 rounded-full ml-4 cursor-pointer" src={kiitlogo} alt="KIIT" />
                 </Link>
-                <Link to="/" className="flex items-center py-5 px-2">
+                <Link to="/" className="flex items-center py-5 px-1">
                   <img className="w-10 rounded-full ml-4 cursor-pointer" src={ksaclogo} alt="KSAC" />
                 </Link>
               </div>
               {/* primary nav */}
               <div className="hidden lg:flex items-center space-x-2 text-lg">
-                <Link to="/" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
+                <Link to="/" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Home
                 </Link>
-                <Link to="/aboutus" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
+                <Link to="/aboutus" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   About Us
                 </Link>
-                <Link to="/featured" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
+                <Link to="/featured" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Featured
                 </Link>
-                <Link to="/events" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
+                <Link to="/events" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Events
                 </Link>
-                <Link to="/achievements" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
+                <Link to="/achievements" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Achievements
                 </Link>
-                <Link to="/collaborations" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
-                  Collaborations
+                <Link to="/members" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
+                  Members
                 </Link>
-                <Link to="/contactus" className="py-5 px-3 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
+                <Link to="/contactus" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Contact Us
                 </Link>
                 {/* <Link to="/admin" className="py-5 px-3 text-gray-700 hover:text-black hover:underline hover:underline-offset-2">
@@ -65,13 +65,13 @@ function Navbar() {
             {/* secondary nav */}
             <div className="hidden lg:flex my-4 rounded-full bg-yellow-500 items-center text-lg">
               <Link to="/signup" className="py-1 px-3 hover:text-black hover:bg-gray-200 rounded transition duration-300">
-                Register/Log in
+                Log in
               </Link>
             </div>
             {/* mobile button goes here */}
             <div className="lg:hidden flex items-center">
               <button className="mobile-menu-button" onClick={menuClick}>
-                <img className="w-6 cursor-pointer" src={menu} alt="menu" />
+                <img className="w-6 fill-yellow-500 cursor-pointer" src={menu} alt="menu" />
               </button>
             </div>
           </div>
@@ -105,7 +105,7 @@ function Navbar() {
           </Link>
           <hr className="w-[60%]" />
           <Link to="/Blog" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
-            Signin
+            Log in
           </Link>
         </div>
       </nav>

@@ -8,12 +8,14 @@ import HomeEvent from '../components/home/HomeEvent'
 import HomeFeatured from '../components/home/HomeFeatured'
 import HomeAchievements from '../components/home/HomeAchievements'
 import HomeCollaborations from '../components/home/HomeCollaborations'
+import AboutUs from './AboutUs'
 
 function Home() {
   return (
     <div>
         <Navbar />
         <HomeMain />
+        <AboutUs />
         <HomeAbout />
         <HomeFeatured />
         <HomeEvent />
