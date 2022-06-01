@@ -1,15 +1,18 @@
 import React from "react";
 import Text from "./Text";
-import Column from "./Column";
+import Useful from "./Useful";
+import Social from "./Social";
+import News from "./News";
 
 function Footer() {
   return (
-    <div style={{ background: "#1C1C1C" }}>
-      <div className="p-4 sm:p-6 flex justify-center md:justify-start">
+    <div style={{ background: "#1C1C1C" }} className="px-12 pt-4">
+      <div className="p-4 sm:p-6 flex justify-between w-full">
         <Text />
-        <div >
-          <Column />
-        </div>
+        <Useful />
+        <Social />
+        <News />
+        
       </div>
 
       <h1

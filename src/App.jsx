@@ -16,6 +16,7 @@ import Achievementss from './pages/Achievements';
 import Collaborations from './pages/Collaborations';
 import ContactUs from './pages/ContactUs';
 import Featured from './pages/Featured';
+import Admin from './pages/Admin';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           <Route path='/featured' element={<Featured />} />
           <Route path='/collaborations' element={<Collaborations />} />
           <Route path='/contactus' element={<ContactUs />} />
+          <Route path='/admin/*' element={<Admin />} />
         </Routes>
       </Router>
     </div>
