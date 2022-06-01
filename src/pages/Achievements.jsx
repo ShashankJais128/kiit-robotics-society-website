@@ -1,8 +1,13 @@
 import React from 'react'
+import AhievementsMain from '../components/achievements/AhievementsMain'
+import Navbar from '../components/header/Navbar'
 
 function Achievements() {
   return (
-    <div>Achievements</div>
+    <div>
+      <Navbar />
+      <AhievementsMain />
+    </div>
   )
 }
 
