@@ -14,15 +14,15 @@ function Home() {
   return (
     <div>
         <Navbar />
-        <HomeMain />
+        {/* <HomeMain /> */}
         <AboutUs />
         <HomeAbout />
-        <HomeFeatured />
+        {/* <HomeFeatured /> */}
         <HomeEvent />
         <HomeAchievements />
         <HomeCollaborations />
-        <Testimonials />
-        <Footer />
+        {/* <Testimonials /> */}
+        {/* <Footer /> */}
         
     </div>
   )

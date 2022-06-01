@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import krslogo from "./krslogo.jpg";
 import kiitlogo from "./kiitlogo.jpg";
 import ksaclogo from "./ksaclogo.png";
-import menu from "./menuicon.png";
+import menu from "../../public/menu1.png";
 
 function Navbar() {
   const [visible, setVisible] = useState("right-[100%]");
@@ -78,32 +78,35 @@ function Navbar() {
         </div>
 
         {/* mobile menu */}
-        <div className={`mobile-menu  flex flex-col ${visible} bg-red-200 w-full h-[100vh] items-center absolute   lg:hidden`}>
+        <div className={`mobile-menu  flex flex-col ${visible} text-white font-semibold bg-[#000000e4] w-full h-[100vh] items-center absolute   lg:hidden`}>
           <Link to="/" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
             Home
           </Link>
-          <hr className="w-[60%]" />
+          <hr className="w-[50%]" />
           <Link to="/About" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
-            About
+            About Us
           </Link>
-          <hr className="w-[60%]" />
+          <hr className="w-[50%]" />
+          <Link to="/Featured" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
+            Featured
+          </Link>
+          <hr className="w-[50%]" />
           <Link to="/Events" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
             Events
           </Link>
-          <hr className="w-[60%]" />
+          <hr className="w-[50%]" />
+          <Link to="/Achievements" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
+            Achievements
+          </Link>
+          <hr className="w-[50%]" />
           <Link to="/Members" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
             Members
           </Link>
-          <hr className="w-[60%]" />
-          <Link to="/Credits" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
-            Credits
+          <hr className="w-[50%]" />
+          <Link to="/contactus" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
+            Contact Us
           </Link>
-          <hr className="w-[60%]" />
-          <Link to="/Recruitment" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200"
-          >
-            Recruitment
-          </Link>
-          <hr className="w-[60%]" />
+          <hr className="w-[50%]" />
           <Link to="/Blog" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
             Log in
           </Link>
