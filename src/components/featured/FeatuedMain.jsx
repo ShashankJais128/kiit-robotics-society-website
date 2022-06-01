@@ -25,7 +25,7 @@ function FeaturedMain() {
       <div className=''>
         <h1 className='text-center text-6xl font-bold pt-6 px-10 text-yellow-500'>Featured Works</h1>
         <div className='w-full py-10 grid grid-cols-1 '>
-          {featuredData.map((data) => {
+          {featuredData.map((data,index) => {
             return(
               <div className='flex even:flex-row-reverse bg-[#111111] mx-10 my-5 px-8 py-8 even:justify-self-end w-4/6 rounded-2xl border-2 border-yellow-500'>
                 <div className=''>
