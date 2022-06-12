@@ -29,12 +29,12 @@ const AboutUsData = [
 function f1() {
   return (
     <div>
-      <div className="w-full py-5 grid grid-cols-2 justify-items-center ">
+      <div className="py-5 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center ">
         {AboutUsData.map((data) => {
           return (
-            <div className="mx-10 my-5 px-8 py-8 w-[500px] h-[250px] rounded-2xl border border-yellow-500 bg-[#00000070] ">
+            <div className="mx-10 my-5 px-8 py-8 lg:w-[500px] lg:h-[250px] rounded-2xl border border-yellow-500 bg-[#00000070] ">
               <img className="w-[60px] h-[60px] " src={data.img} alt="" />
-              <p className="text-white text-sm mx-5 my-5 text-justify">
+              <p className="text-white text-sm sm:text-xs mx-5 my-5 text-justify">
                 {data.description}
               </p>
             </div>

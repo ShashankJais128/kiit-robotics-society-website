@@ -2,7 +2,7 @@ import vector from "../../public/Vector.png";
 
 function News() {
   return (
-    <div className="font-WorkSans mb-4">
+    <div className="font-WorkSans mb-4 ">
       <div>
         <form>
           <div class="form mb-4">

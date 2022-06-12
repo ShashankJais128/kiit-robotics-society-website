@@ -24,7 +24,7 @@ function FeaturedMain() {
     <div className='bg-black'>
       <div className=''>
         <h1 className='text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold pt-6 px-10 text-yellow-500'>Featured Works</h1>
-        <div className='w-full py-10 grid  grid-cols-1 px-10'>
+        <div className='w-full py-10 grid grid-cols-1 md:grid-cols-2; px-10'>
           {featuredData.map((data) => {
             return(
               <div className='flex flex-col space-y-3 sm:flex-row  sm:even:flex-row-reverse bg-[#111111]  my-5 px-8 py-8 even:justify-self-end w-full md:w-5/6 lg:w-4/6 rounded-2xl border-2 border-yellow-500'>

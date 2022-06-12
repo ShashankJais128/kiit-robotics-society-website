@@ -6,7 +6,7 @@ function HomeAchievements() {
   return (
     <div className='bg-black bg-cover bg-bottom flex flex-col pb-10 ' style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(${Ach})`}}>
         
-        <h1 className='text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold pt-6 px-10 text-yellow-500'>Achievents
+        <h1 className='text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold pt-6 px-10 text-yellow-500'>Achievements
         <button className='bg-yellow-500 w-fit self-center px-4 ml-5 text-black font-semibold text-2xl rounded-lg'><a href="/achievements">All</a></button>
         </h1>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8 justify-items-center sm:px-[5%] py-10'>

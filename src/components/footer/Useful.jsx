@@ -1,6 +1,6 @@
 function Useful() {
   return (
-    <div className="font-WorkSans mb-4 ">
+    <div className="font-WorkSans mb-4 justify-center md:justify-start">
       <h1 className="font-bold px-20 text-white">Useful Links</h1>
       <div
         className="px-20"

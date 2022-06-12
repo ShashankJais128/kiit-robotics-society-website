@@ -7,7 +7,7 @@ import News from "./News";
 function Footer() {
   return (
     <div style={{ background: "#1C1C1C" }} className="px-12 pt-4">
-      <div className="p-4 sm:p-6 flex justify-between w-full">
+      <div className="p-4 sm:p-6 flex flex-col justify-between ">
         <Text />
         <Useful />
         <Social />

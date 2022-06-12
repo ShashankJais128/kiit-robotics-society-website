@@ -1,6 +1,6 @@
 function Social() {
   return (
-    <div className="font-WorkSans mb-4 ">
+    <div className="font-WorkSans mb-4 justify-center md:justify-start">
       <h1 className="font-extrabold px-18 text-white">Social Media</h1>
       <div
         className="px-18"
@@ -54,7 +54,7 @@ function Social() {
             </svg>
           </a>
 
-          <a href="">Linkedin</a>
+          <a href="">Linkedln</a>
         </div>
 
         <div className="flex flex-row">
