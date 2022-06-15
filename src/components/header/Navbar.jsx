@@ -64,7 +64,7 @@ function Navbar() {
             </div>
             {/* secondary nav */}
             <div className="hidden lg:flex my-4 rounded-full bg-yellow-500 items-center text-lg">
-              <Link to="/signup" className="py-1 px-3 hover:text-black hover:bg-gray-200 rounded transition duration-300">
+              <Link to="/signin" className="py-1 px-3 hover:text-black rounded transition duration-300">
                 Log in
               </Link>
             </div>
@@ -107,7 +107,7 @@ function Navbar() {
             Contact Us
           </Link>
           <hr className="w-[50%]" />
-          <Link to="/Blog" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
+          <Link to="/signin" className="block py-2 px-4 my-1 text-sm hover:bg-gray-200">
             Log in
           </Link>
         </div>

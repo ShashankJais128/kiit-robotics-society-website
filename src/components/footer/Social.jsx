@@ -1,7 +1,7 @@
 function Social() {
   return (
-    <div className="font-WorkSans mb-4 justify-center md:justify-start">
-      <h1 className="font-extrabold px-18 text-white">Social Media</h1>
+    <div className="font-WorkSans mb-16 justify-center md:justify-start">
+      <h1 className="font-extrabold  text-white text-xl">Social Media</h1>
       <div
         className="px-18"
         style={{

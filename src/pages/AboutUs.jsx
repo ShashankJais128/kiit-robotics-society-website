@@ -7,11 +7,11 @@ function AboutUs() {
   return (
     <div className="bg-cover bg-black bg-top py-10" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${AB1})`}}>
      
-      <h1 className="text-center text-5xl sm:text-4xl md:text-5xl lg:text-6xl font-Roboto font-bold pt-6 px-10 text-yellow-500">
+      <h1 className="text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold pt-6 px-10 text-yellow-500">
         ABOUT KIIT ROBOTICS SOCIETY
       </h1>
       <AboutUsCard />
-      <h1 className="text-center text-5xl lg:text-5xl md:text-3xl sm:text-xl font-Roboto font-bold pt-6 px-10 text-yellow-500">
+      <h1 className="text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold pt-6 px-10 text-yellow-500">
         Our Motto
       </h1>
       <Motto />

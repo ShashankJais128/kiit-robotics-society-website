@@ -4,9 +4,7 @@ module.exports = {
     extend: {
       fontFamily:{
         'poppins':['Poppins', 'sans-serif'],
-        'lobster':['Pattaya', 'sans-serif'],
-        'WorkSans':['Work Sans', 'sans-serif'],
-        'Roboto':['Roboto', 'sans-serif']
+        'roboto':['Roboto', 'sans-serif']
       }
     },
   },
