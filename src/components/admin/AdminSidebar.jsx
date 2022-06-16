@@ -7,6 +7,7 @@ function AdminSidebar() {
         <div className="w-64 flex flex-col bg-[#111111] text-white sticky">
           <Link to="/admin/adminmembers" className="py-2 text-center">Members</Link>
           <Link to="/admin/adminevents" className="py-2 text-center">Events</Link>
+          <Link to="/admin/adminachievements" className="py-2 text-center">Achievements</Link>
         </div>
     </div>
   )

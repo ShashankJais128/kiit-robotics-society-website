@@ -1,5 +1,6 @@
 import React from 'react'
 import PP from "../../public/pp.jpeg"
+import FeBg from '../../public/featured.jpg'
 
 const featuredData = [
   {
@@ -21,7 +22,7 @@ const featuredData = [
 
 function FeaturedMain() {
   return (
-    <div className='bg-black'>
+    <div className='bg-black bg-fixed bg-cover bg-top' style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${FeBg})`}}>
       <div className=''>
         <h1 className='text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold pt-6 px-10 text-yellow-500'>Featured Works</h1>
         <div className='w-full py-10 grid grid-cols-1 md:grid-cols-2; px-10'>

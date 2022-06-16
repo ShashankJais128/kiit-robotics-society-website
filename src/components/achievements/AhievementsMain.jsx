@@ -1,7 +1,38 @@
 import React, { useState, useEffect, useRef }  from 'react'
 import PP from "../../public/pp.jpeg"
+import AchBg from '../../public/achievement.jpg'
 
 const achievementsData = [
+  {
+    img1: "https://user-images.githubusercontent.com/88647567/166467933-2b3a2dab-8477-4ed1-8f4e-54c382342305.jpeg",
+    img2: "https://user-images.githubusercontent.com/88647567/150991382-9fe442a8-0b36-4294-a4bd-fb3fbf590e18.jpg",
+    position: "2nd",
+    year: "2019",
+    teamName: "Technocrats",
+    eventName1: "Treckon",
+    eventName2: "Teck Fest",
+    eventPlace: "IIT BBSR"
+  },
+  {
+    img1: "https://user-images.githubusercontent.com/88647567/166467933-2b3a2dab-8477-4ed1-8f4e-54c382342305.jpeg",
+    img2: "https://user-images.githubusercontent.com/88647567/150991382-9fe442a8-0b36-4294-a4bd-fb3fbf590e18.jpg",
+    position: "2nd",
+    year: "2019",
+    teamName: "Technocrats",
+    eventName1: "Treckon",
+    eventName2: "Teck Fest",
+    eventPlace: "IIT BBSR"
+  },
+  {
+    img1: "https://user-images.githubusercontent.com/88647567/166467933-2b3a2dab-8477-4ed1-8f4e-54c382342305.jpeg",
+    img2: "https://user-images.githubusercontent.com/88647567/150991382-9fe442a8-0b36-4294-a4bd-fb3fbf590e18.jpg",
+    position: "2nd",
+    year: "2019",
+    teamName: "Technocrats",
+    eventName1: "Treckon",
+    eventName2: "Teck Fest",
+    eventPlace: "IIT BBSR"
+  },
   {
     img1: "https://user-images.githubusercontent.com/88647567/166467933-2b3a2dab-8477-4ed1-8f4e-54c382342305.jpeg",
     img2: "https://user-images.githubusercontent.com/88647567/150991382-9fe442a8-0b36-4294-a4bd-fb3fbf590e18.jpg",
@@ -25,7 +56,7 @@ const achievementsData = [
   
 ];
 
-function AhievementsMain() {
+function AhievementsMain()  {
 
   function reveal() {
     var reveals = document.querySelectorAll(".reveal");
@@ -73,7 +104,7 @@ function AhievementsMain() {
   }
 
   return (
-    <div className='bg-black'>
+    <div className='bg-black bg-fixed bg-cover bg-left' style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${AchBg})`}}>
       
         <h1 className='text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold pt-6 px-10 text-yellow-500'>Achievements</h1>
         {achievementsData.map((achievementsData) => {
