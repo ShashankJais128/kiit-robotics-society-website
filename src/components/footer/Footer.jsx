@@ -6,7 +6,7 @@ import News from "./News";
 
 function Footer() {
   return (
-    <div style={{ background: "#1C1C1C" }} className="px-12 pt-8">
+    <div className="bg-[#111111] px-12 pt-8">
       <div className="p-4 flex flex-col lg:flex-row items-center justify-between ">
         <Text />
         <div className="flex space-x-20">
