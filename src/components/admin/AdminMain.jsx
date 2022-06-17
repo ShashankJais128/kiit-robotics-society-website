@@ -9,6 +9,7 @@ import {
   Link
 } from "react-router-dom";
 import AdminAchievements from './AdminAchievements';
+import UserProfile from './UserProfile';
 
 function AdminMain() {
   return (
@@ -18,6 +19,7 @@ function AdminMain() {
         <Route path='/adminmembers' element={<AdminMembers />} />
         <Route path='/adminevents' element={<AdminEvents />} />
         <Route path='/adminachievements' element={<AdminAchievements />} />
+        <Route path='/userprofile' element={<UserProfile /> } />
       </Routes>
       
     </div>
