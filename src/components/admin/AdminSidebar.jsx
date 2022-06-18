@@ -9,6 +9,8 @@ function AdminSidebar() {
           <Link to="/admin/adminevents" className="py-2 text-center">Events</Link>
           <Link to="/admin/adminachievements" className="py-2 text-center">Achievements</Link>
           <Link to="/admin/userprofile" className="py-2 text-center">User Profile</Link>
+          <Link to="/admin/createteam" className="py-2 text-center">Create Team</Link>
+          <Link to="/admin/memberprofile" className="py-2 text-center">Member Profile</Link>
         </div>
     </div>
   )
