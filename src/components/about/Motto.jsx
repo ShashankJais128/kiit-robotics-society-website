@@ -30,13 +30,17 @@ const AboutUsData = [
 
 function Motto() {
   return (
-    <div>
-      <div className="w-full py-5 grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 justify-items-center">
+    <div className="w-full flex flex-col lg:flex-row-reverse items-center">
+      <div className='w-full lg:w-1/3 items-center lg:items-start space-y-1 md:space-y-9 px-12 pb-8 md:py-8 flex flex-col'>
+        <h1 className="text-white text-4xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold">OUR</h1>
+        <h1 className="text-yellow-500 text-4xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold">MOTTO</h1>
+      </div>
+      <div className="w-full lg:w-1/2 py-5 grid md:grid-cols-2 mx-16 grid-cols-1 mr-20 justify-items-center">
         {AboutUsData.map((data) => {
           return (
-            <div className="mx-10 my-5 px-8 py-8 lg:w-[500px] lg:h-[250px] rounded-2xl border border-yellow-500 bg-[#00000070] ">
-              <img className="w-[60px] h-[60px] " src={data.img} alt="" />
-              <p className="text-white text-sm mx-5 my-5 text-justify">
+            <div className="my-5 px-8 py-8 w-[70%] md:w-[80%] rounded-2xl border border-yellow-500 bg-[#00000070] ">
+              <img className="w-12 h-12 m-2 mr-4 float-left" src={data.img} alt="" />
+              <p className="text-white text-xs xl:text-sm text-justify">
                 {data.description}
               </p>
             </div>

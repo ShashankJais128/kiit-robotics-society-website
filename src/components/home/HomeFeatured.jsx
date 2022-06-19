@@ -10,22 +10,6 @@ function HomeFeatured() {
         <h1 className="text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold pt-6 px-10 text-yellow-500">Featured Works
           <button className="bg-yellow-500 w-fit self-center px-4 ml-5 text-black font-semibold text-2xl rounded-lg">All</button>
         </h1>
-        {/* <div>
-         <div className="flex m-5">
-           <FG />
-           <FG />
-           <FG />
-         </div>
-
-         <div className="flex  m-5">
-           <FG />
-           <FG />
-           <FG />
-         </div>
-         </div>
-         </div>
-         );
-        } */}
 
         <div class="py-10 px-[5%]">
           <div class="flex flex-wrap flex-col lg:flex-row">
