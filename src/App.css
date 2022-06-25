@@ -4,6 +4,8 @@
     animation: fadeAnim 1s
     ease-out;
 }
+
+
 @keyframes fadeAnim {
     from{
         opacity: 0;

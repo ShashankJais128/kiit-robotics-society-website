@@ -14,7 +14,7 @@ function EventCards() {
           </button>
         </h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 lg:gap-10 justify-items-center my-10 mx-14 justify-between">
+      <div className="grid grid-cols-1 transition-opacity ease-in duration-150 opacity-20 hover:opacity-100 sm:grid-cols-2 lg:grid-cols-3 gap-20 lg:gap-10 justify-items-center my-10 mx-14 justify-between">
       <Card />
       <Card />
       <Card />

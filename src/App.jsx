@@ -17,6 +17,8 @@ import Collaborations from './pages/Collaborations';
 import ContactUs from './pages/ContactUs';
 import Featured from './pages/Featured';
 import Admin from './pages/Admin';
+import Register from './pages/Register';
+import Questions from './components/register/Questions';
 
 function App() {
 
@@ -35,6 +37,8 @@ function App() {
           <Route path='/collaborations' element={<Collaborations />} />
           <Route path='/contactus' element={<ContactUs />} />
           <Route path='/admin/*' element={<Admin />} />
+          <Route path='/form' element={<Register />} />
+          <Route path='#questions' element={<Questions />}/>
         </Routes>
       </Router>
     </div>

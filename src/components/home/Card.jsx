@@ -20,7 +20,7 @@ function Card() {
           </div>
           <button
             type="button"
-            class=" flex items-center justify-center w-full px-6 py-2.5 bg-amber-400 text-black font-WorkSans text-xl font-bold rounded-b-2xl hover:bg-amber-600 "
+            class=" flex items-center justify-center w-full px-6 py-4 bg-amber-400 text-black font-WorkSans text-2xl font-bold rounded-b-2xl hover:bg-amber-600 "
           >
             REGISTER
           </button>
