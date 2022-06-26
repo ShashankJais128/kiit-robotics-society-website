@@ -60,7 +60,7 @@ function MemberMain() {
                 <div className='flex flex-col justify-between space-y-5 h-full items-center mx-5'>
                   <div className='space-y-1 flex flex-col items-center'>
                     <h1 className='text-yellow-500 font-bold text-lg sm:text-xl text-center'>{data.name}</h1>
-                    <h2 className='text-white font-semibold text-base sm:text-lg text-center'>Coordingator</h2>
+                    <h2 className='text-white font-semibold text-base sm:text-lg text-center'>Coordinator</h2>
                   </div>
                   <div className='flex flex-col items-center'>
                     <p className='text-white text-justify text-sm xl:text-base'>"{data.about}"</p>
@@ -92,7 +92,7 @@ function MemberMain() {
                 <div className='flex flex-col justify-between space-y-5 h-full items-center mx-5'>
                   <div className='space-y-1 flex flex-col items-center'>
                     <h1 className='text-yellow-500 font-bold text-lg sm:text-xl text-center'>{data.name}</h1>
-                    <h2 className='text-white font-semibold text-base sm:text-lg text-center'>Coordingator</h2>
+                    <h2 className='text-white font-semibold text-base sm:text-lg text-center'>Coordinator</h2>
                   </div>
                   <div className='flex flex-col items-center'>
                     <p className='text-white text-justify text-sm xl:text-base'>"{data.about}"</p>

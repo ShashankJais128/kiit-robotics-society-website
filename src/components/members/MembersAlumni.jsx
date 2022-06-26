@@ -28,7 +28,6 @@ const CoordinatorsData = [
   
 ];
 
-
 function MembersAlumni(props) {
     const visi = props.aluVisible.visibility
 
