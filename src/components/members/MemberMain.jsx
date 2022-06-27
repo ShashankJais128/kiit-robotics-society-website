@@ -53,7 +53,7 @@ function MemberMain() {
         <div className='w-full py-10 px-[5%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center'>
           {CoordinatorsData.map((data) => {
             return(
-              <div className='bg-[#111111] w-[80%] sm:w-[70%] md:w-[80%] lg:w-[90%] xl:w-[80%] space-y-4 mx-10 my-5 px-8 py-8 flex flex-col items-center rounded-2xl border-t-4 border-b-4 border-yellow-500'>
+              <div className='glass_effect_card w-[80%] sm:w-[70%] md:w-[80%] lg:w-[90%] xl:w-[80%] space-y-4 mx-10 my-5 px-8 py-8 flex flex-col items-center rounded-2xl border-t-4 border-b-4 border-yellow-500'>
                 <div className=''>
                   <img className='w-40 h-40 rounded-3xl' src={data.img} alt="" />
                 </div>

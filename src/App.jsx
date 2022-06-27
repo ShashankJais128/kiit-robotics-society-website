@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
+import { useContext } from 'react';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import Members from './pages/Members';
@@ -17,9 +17,11 @@ import Collaborations from './pages/Collaborations';
 import ContactUs from './pages/ContactUs';
 import Featured from './pages/Featured';
 import Admin from './pages/Admin';
+import AuthContext from './store/auth-context';
 
 function App() {
-
+  const authCtx = useContext(AuthContext);
+  console.log(authCtx.isLoggedIn)
   return (
     <div className="App">
       <Router>
@@ -30,7 +32,7 @@ function App() {
           <Route path='/members' element={<Members/>} />
           <Route path='/recruitment' element={<Recruitment/>} />
           <Route path='/achievements' element={<Achievementss />} />
-          <Route path='/signin' element={<Signin/>} />
+          {!(authCtx.isLoggedIn) && <Route path='/signin' element={<Signin/>} /> }
           <Route path='/featured' element={<Featured />} />
           <Route path='/collaborations' element={<Collaborations />} />
           <Route path='/contactus' element={<ContactUs />} />

@@ -125,9 +125,9 @@ function AdminMembers() {
                   <input className="text-lg w-full py-0.5 px-1 mx-1 rounded" placeholder='Enter github link' type="text" name='github' value={mem.github} onChange={onChange} />
                 </div>
               </div>
-              
               <button type="submit" onClick={handleClick} className="text-2xl py-1.5 px-3 mx-1 my-6 bg-yellow-500 rounded-lg text-white">Add member</button>
             </div>
+
 
             <div className='w-full py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center'>
             {members.map((data) => {
@@ -155,7 +155,7 @@ function AdminMembers() {
                   <div className="flex space-x-4">
                           <Link className="text-white" onClick={() => deleteMember(data.roll)} to=""><img className='w-6' src={Delete} alt="dlt" /></Link>
                           <Link className="text-white" onClick={() => setShowModal(true)} to=""><img className='w-6' src={Edit} alt="edit" /></Link>      
-                        </div>
+                  </div>
                 </div>
               </div>
             )

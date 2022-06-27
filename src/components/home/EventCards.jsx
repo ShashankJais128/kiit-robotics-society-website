@@ -4,6 +4,8 @@ import bg from "../../public/bg.png"
 
 function EventCards() {
   
+
+  
   return (
     <div className="bg-cover bg-black bg-bottom py-5" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${bg})`}}>
       <div>

@@ -2,7 +2,7 @@ import Stars from "./Stars";
 
 function TestCard() {
   return (
-    <div class=" bg-white rounded-md -m-2 w-[300px] h-[400px]">
+    <div class=" bg-white rounded-md pt-2 w-[300px] h-[400px]">
       <ul class="flex justify-start m-4" >
         <Stars />
         <Stars />
