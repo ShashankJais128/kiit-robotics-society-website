@@ -1,3 +1,4 @@
+
 function Text() {
     return (
       <div>
@@ -13,6 +14,7 @@ function Text() {
           onKeyPress={event => {
             if (event.key === 'Enter') {
               this.event
+              // console.log("event")
             }
           }}
         ></input>

@@ -22,13 +22,14 @@ function Register() {
         }}
       >
         <div
-          className="border-2 border-yellow-500 h-96 flex rounded-lg ml-14 mb-10"
+          className="border-2 border-yellow-500 h-96 rounded-lg ml-14 mb-10 flex items-center"
           style={{ width: "90%", background: "rgba(4, 0, 0, 0.60)" }}
         >
-          <div className="flex justify-start items-center">
-            {!submit && <Form onsubmit={onSubmit} />}
+          <div className="flex flex-row items-center">
+            {/* {!submit && <Form onsubmit={onSubmit} />} */}
+            <Form />
             <Info />
-            {submit && <div>SUBMITTED</div>}
+            {/* {submit && <div>SUBMITTED</div>} */}
           </div>
         </div>
 

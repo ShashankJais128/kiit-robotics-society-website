@@ -2,7 +2,7 @@ import event from "../../public/event.jpg";
 
 function Info() {
   return (
-    <div className="ml-10" style={{ width: "30%" }}>
+    <div className="ml-10 w-[30%]">
       <text className="text-yellow-500 text-4xl font-bold ml-7">
         Pradarshana 1.0
       </text>
