@@ -25,22 +25,24 @@ function FeaturedMain() {
     className="bg-cover bg-fixed bg-black pb-10" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(${dbg})`,}}
     >
       <div className="">
-        <h1 className="text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold pt-8 pb-12 px-10 text-yellow-500">
+        <h1 className="text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold pt-4 pb-6 px-5 text-yellow-500">
           Featured Works
         </h1>
         {featuredData.map((featuredData) => {
           return (
-            <div class=" px-[5%]">
+            <div class=" px-[7%]">
               <div class="flex ">
                 <FlipCard
                   title={featuredData.heading}
                   img={featuredData.img}
                   desc={featuredData.description}
+                  width="50%"
                 />
                 <FlipCard
                   title={featuredData.heading}
                   img={featuredData.img}
                   desc={featuredData.description}
+                  width="50%"
                 />
               </div>
               <div className="flex justify-center items-center">
@@ -48,6 +50,7 @@ function FeaturedMain() {
                   title={featuredData.heading}
                   img={featuredData.img}
                   desc={featuredData.description}
+                  width="100%"
                 />
               </div>
             </div>
