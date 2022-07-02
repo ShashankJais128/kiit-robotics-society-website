@@ -1,8 +1,6 @@
 import React from 'react'
 import PP from "../../public/pp.jpeg"
-import FeBg from '../../public/featured.jpg'
 import watch from '../../public/watch.jpg'
-import fe1 from '../../public/fe1.jpg'
 import fe2 from '../../public/fe2.jpg'
 
 

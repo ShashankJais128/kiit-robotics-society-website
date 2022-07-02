@@ -12,7 +12,7 @@ import AboutUs from './AboutUs'
 
 function Home() {
   return (
-    <div>
+    <div style={{backgroundColor:"black"}}>
         <Navbar />
         <HomeMain />
         <AboutUs />
@@ -21,7 +21,7 @@ function Home() {
         <HomeEvent />
         <HomeAchievements />
         <HomeCollaborations />
-        <Testimonials />
+        <Testimonials/>
         <Footer />
         
     </div>
