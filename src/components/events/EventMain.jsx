@@ -33,13 +33,13 @@ function EventMain() {
           return (
             <div key={i} className='flex flex-col md:flex-row h-[] px-10 py-10 items-center justify-between'>
               <div className='text-white order-2 md:order-1 w-full md:w-2/3 py-10 px-10 flex flex-col justify-between'>
-                <div className='flex justify-between items-center flex-col sm:flex-row'>
+                {/* <div className='flex justify-between items-center flex-col sm:flex-row'>
                   <h1 className='text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold pb-4 sm:pb-8 text-center md:text-left text-yellow-500'>{eventsData.eventName}</h1>
                   <div className='pb-4'>
                     <h2 className='text-base md:text-xl text-yellow-500'>{eventsData.date}</h2>
                     <h2 className='text-base md:text-xl text-yellow-500'>{eventsData.venue}</h2>
                   </div>
-                </div>
+                </div> */}
                 <div>
                   <h1 className='text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold pb-8 text-center md:text-left text-yellow-500'>{eventsData.eventName}</h1>
                   <h6 className='text-1xl sm:text-1xl  md:text-1xl xl:text-1xl font-light pb-8 text-center md:text-left text-yellow-500'><i>{eventsData.date} <br/>{eventsData.venue}</i></h6>
