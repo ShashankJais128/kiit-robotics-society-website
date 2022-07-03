@@ -58,9 +58,9 @@ function Navbar() {
                 <Link to="/members" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Members
                 </Link>
-                <Link to="/contactus" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
+                <a href="#footer" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Contact Us
-                </Link>
+                </a>
                 {/* <Link to="/admin" className="py-5 px-3 text-gray-700 hover:text-black hover:underline hover:underline-offset-2">
                   Admin
                 </Link> */}

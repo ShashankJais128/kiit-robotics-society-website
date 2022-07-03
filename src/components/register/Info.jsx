@@ -1,9 +1,8 @@
-import event from "../../public/event.jpg";
 
 function Info() {
   return (
-    <div className="ml-10 w-[30%]">
-      <text className="text-yellow-500 text-4xl font-bold ml-7">
+    <div className="xl:w-[30%] md:w-[100%] sm:w-[100%] lg:w-[30%] my-5 mx-10">
+      <text className="text-yellow-500 xl:text-4xl lg:text-4xl md:text-2xl sm:text-xl font-bold ml-7 text-center">
         Pradarshana 1.0
       </text>
 

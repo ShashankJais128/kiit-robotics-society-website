@@ -22,10 +22,10 @@ function Register() {
         }}
       >
         <div
-          className="border-2 border-yellow-500 h-96 rounded-lg ml-14 mb-10 flex items-center"
+          className="border-2 border-yellow-500 rounded-lg ml-14 mb-10 items-center"
           style={{ width: "90%", background: "rgba(4, 0, 0, 0.60)" }}
         >
-          <div className="flex flex-row items-center">
+          <div className="flex xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse items-center">
             {/* {!submit && <Form onsubmit={onSubmit} />} */}
             <Form />
             <Info />
