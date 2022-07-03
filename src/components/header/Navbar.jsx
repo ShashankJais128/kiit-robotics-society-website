@@ -6,6 +6,7 @@ import ksaclogo from "./ksaclogo.png";
 import { useContext } from "react";
 import AuthContext from "../../store/auth-context"; 
 import menu from "../../public/menu1.png";
+import Footer from "../footer/Footer";
 
 function Navbar() {
   const [visible, setVisible] = useState("right-[100%]");
@@ -42,9 +43,9 @@ function Navbar() {
                 <Link to="/" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Home
                 </Link>
-                <Link to="/aboutus" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
+                {/* <Link to="/aboutus" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   About Us
-                </Link>
+                </Link> */}
                 <Link to="/featured" className="py-5 px-2 text-white hover:text-yellow-500 hover:underline hover:underline-offset-2">
                   Featured
                 </Link>
@@ -73,8 +74,8 @@ function Navbar() {
 
             </div> }
             {!(authCtx.isLoggedIn) &&
-             <div className="hidden lg:flex my-4 rounded-full font-medium  bg-yellow-500 items-center text-lg">
-             <Link to="/signin" className="py-1 px-3 hover:text-black rounded transition duration-300">
+             <div className="hidden lg:flex items-center text-lg">
+             <Link to="/signin" className="py-1 px-5 button-85 hover:text-yellow-500 hover:underline hover:underline-offset-2">
                Log in
              </Link>
            </div>

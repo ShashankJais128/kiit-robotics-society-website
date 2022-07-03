@@ -11,13 +11,14 @@ import Events from './pages/Events';
 import Members from './pages/Members';
 import Recruitment from './pages/Recruitment';
 import Signin from './pages/Signin';
-import AboutUs from './pages/AboutUs';
 import Achievementss from './pages/Achievements';
 import Collaborations from './pages/Collaborations';
 import ContactUs from './pages/ContactUs';
 import Featured from './pages/Featured';
 import Admin from './pages/Admin';
 import AuthContext from './store/auth-context';
+import Register from './pages/Register';
+import Questions from './components/register/Questions';
 
 function App() {
   const authCtx = useContext(AuthContext);
@@ -27,7 +28,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/aboutus' element={<AboutUs/>} />
+          {/* <Route path='/aboutus' element={<AboutUs/>} /> */}
           <Route path='/events' element={<Events/>} />
           <Route path='/members' element={<Members/>} />
           <Route path='/recruitment' element={<Recruitment/>} />
@@ -37,6 +38,8 @@ function App() {
           <Route path='/collaborations' element={<Collaborations />} />
           <Route path='/contactus' element={<ContactUs />} />
           <Route path='/admin/*' element={<Admin />} />
+          <Route path='/form' element={<Register />} />
+          <Route path='#questions' element={<Questions />}/>
         </Routes>
       </Router>
     </div>
